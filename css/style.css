@@ -66,9 +66,9 @@ a {
     color: var(--main-bg-color)
 }
 
-/**************************/
-/****** header ************/
-/**************************/
+/*********************************************/
+/****** header *******************************/
+/*********************************************/
 header{
     margin-bottom: 30px;
     display: flex;
@@ -98,7 +98,7 @@ header{
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    margin: 20px 0;
+    margin: 30px 0;
     width: fit-content;
     border-radius: 15px;
     overflow: hidden;
@@ -106,28 +106,30 @@ header{
 
 .icone-recherche {
     background-color: var(--main-bg-color);
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .icone-recherche .fa-solid {
     color: #000000;
 }
 
-.champs-recherche {
+.champ-recherche {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
 .search {
-    height: 40px;
+    height: 50px;
     border: 1px solid var(--main-bg-color);
     color: #000000;
+    font-size: 18px;
     font-weight: 700;
-    padding-left: 10px
+    padding-left: 20px
 }
 .search::placeholder {
     color: #000000;
@@ -136,7 +138,7 @@ header{
 }
 
 .cta {
-    height: 40px;
+    height: 50px;
     background-color: var(--main-color);
     color: #FFF;
     border: none;
@@ -145,29 +147,11 @@ header{
     font-weight: 700;
 }
 
-/*Essai bouton loupe*/
 
-.cta-2 {
-    position: relative;
-    width: 49px;
-    height: 49px;
-    color: white;
-    background-color: #0065FC;
-    border: none;
-    border-radius: 15px;
-    cursor: pointer;
-}
 
-.cta-2::before {
-    content: "\f002";
-    left: 50%;
-    top: 50%;
-    font-size: 17px;
-    color: white;    
-    
-}
-
-/****** Filtres ******/
+/***************************************/
+/*********** Filtres *******************/
+/***************************************/
 
 .filtres {
     display: flex;
@@ -189,6 +173,7 @@ header{
     padding: 13px 19px;
     gap: 10px;
     cursor: pointer;
+    font-weight: 700;
 }
 
 .filtres-bouton:hover {
@@ -198,12 +183,15 @@ header{
 .titre-filtres {
     font-weight: 700;
 }
-
+/*********************************/
 /******Info nb d'hébergement******/
+/*********************************/
+
 .info-nb-hebergements {
     display: flex;
     gap: 10px;
     align-items: center;
+    padding: 20px 0;
 }
 
 .fa-info {
@@ -216,7 +204,11 @@ header{
     align-items: center;
 }
 
+/**********************************************/
 /****** Hebergements And Populaires ***********/
+/**********************************************/
+
+
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
