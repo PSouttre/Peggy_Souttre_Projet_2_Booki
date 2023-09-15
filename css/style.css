@@ -15,7 +15,6 @@ body {
     max-width: 1440px;
     margin: auto;
     padding: 20px;
-    background-color: chocolate;
 }
 
 .fa-solid {
@@ -25,7 +24,6 @@ body {
 main {
     display: flex;
     justify-content: center;
-    background-color: blue;
     max-width: 1440px;
 
 }
@@ -35,7 +33,6 @@ main {
     max-width: 1440px;
 
     box-sizing: border-box;
-    background-color: chartreuse;
 }
 
 a {
@@ -88,8 +85,6 @@ header{
     align-items: center;
     
     max-width: 1440px;
-    background-color: red;
-
 }
 
 .logo-container {
@@ -240,7 +235,7 @@ header{
 /**********************************************/
 
 .hebergements {
-    background-color: darkgoldenrod;
+    background-color: var(--main-bg-color);
     border-radius: 15px;
     width: 65%;
     display: flex;
@@ -248,31 +243,26 @@ header{
 }
 
 .hebergements-title {
-    background-color: blueviolet;
     padding: 20px;
     display: flex;
     justify-content: flex-start;
-    bo
+    font-size: 22px;
+    margin-top: 30px;
 }
 
 .bloc-hebergements-cards {
-    background-color: crimson;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin: 20px;
-
 }
 
 .hebergements-cards .card {
-    background-color: darkcyan;
     display: flex;
     margin-top: 33px;
     flex-direction: column;
     width: 240px;
     height: 207px;
-   
 }
 
 .hebergements-cards img {
@@ -283,14 +273,47 @@ header{
 
 }
 
+.hebergements-cards .card-content {
+    width: 67%;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.hebergements-cards .card-title {
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+.hebergements-cards .card-subtitle {
+    margin-top: 10px;
+}
+
+.hebergements-cards .card-rating {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.afficher-plus a:hover {
+    cursor: pointer;
+}
+
+.afficher-plus {
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
 
 /**********************************************/
 /****** Populaires ***********/
 /**********************************************/
 
 .populaires {
+    background-color: var(--main-bg-color);
     width: 32%;
-    background-color: aqua;
     border-radius: 15px;
     
 }
@@ -300,15 +323,15 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    font-size: 22px;
+    margin-top: 30px;
 }
 
 .bloc-populaires-cards {
-    background-color: crimson;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     margin: 20px;
-
 }
 
 .populaires-cards .card {
@@ -342,6 +365,7 @@ header{
 }
 
 .populaires-cards .card-rating {
+    
     margin-bottom: 5px;
 }
 
