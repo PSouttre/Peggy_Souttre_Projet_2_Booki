@@ -25,6 +25,7 @@ main {
     display: flex;
     justify-content: center;
     max-width: 1440px;
+    flex-direction: column;
 
 }
 
@@ -73,10 +74,9 @@ h1 {
     color: var(--main-bg-color)
 }
 
-
-/*********************************************/
-/****** header *******************************/
-/*********************************************/
+/**************************/
+/****** header ************/
+/**************************/
 header{
     margin-bottom: 30px;
     display: flex;
@@ -212,15 +212,11 @@ header{
     justify-content: center;
     align-items: center;
 }
-/**********************************************/
-/**********************************************/
-/****** Hebergements And Populaires ***********/
-/**********************************************/
-/**********************************************/
 
+/****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
+    background-color: red;
     display: flex;
-    justify-content: space-between;
     flex-direction: row;
 }
 
@@ -313,7 +309,7 @@ header{
 
 .populaires {
     background-color: var(--main-bg-color);
-    width: 32%;
+    width: 35%;
     border-radius: 15px;
     
 }
@@ -373,9 +369,69 @@ header{
 /*******************Activités***************************/
 /*******************************************************/
 
+.activites {
+    display: flex;
+    flex-direction: column;
+}
 
+.activites-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 22px;
+    margin-top: 30px;
+}
 
+.bloc-activites-cards {
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px;
+   
+}
 
+.activités-cards  {
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    height: 439px;
+    width: fit-content;
+}
+
+.activités-cards img {
+    height: 380px;
+    width: 297px;
+}
+
+.card-title {
+    padding: 20px;
+}
+
+/*******************************************************/
+/*******************Footer***************************/
+/*******************************************************/
+
+footer {
+    background-color: var(--main-bg-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 160px;
+    margin: auto;
+}
+
+.footer-box {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+ 
+}
 
 
 
