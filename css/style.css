@@ -15,6 +15,9 @@ body {
     max-width: 1440px;
     margin: auto;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .fa-solid {
@@ -26,13 +29,12 @@ main {
     justify-content: center;
     max-width: 1440px;
     flex-direction: column;
-
 }
 
 .main-container {
     width: 100%;
     max-width: 1440px;
-
+    padding: 0 50px;
     box-sizing: border-box;
 }
 
@@ -219,14 +221,15 @@ header{
 
 
 .hebergements-and-populaires {
-    background-color: red;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .hebergements-and-populaires .hebergements .populaires {
     border-radius: 20px;
     padding: 30px;
+    box-sizing: border-box;
 }
 
 /**********************************************/
@@ -257,7 +260,6 @@ header{
 }
 
 .hebergements-cards .card {
-    background-color: aqua;
     display: flex;
     margin-top: 33px;
     flex-direction: column;
@@ -274,23 +276,13 @@ header{
 }
 
 .hebergements-cards .card-content {
-    width: 67%;
-    padding-left: 15px;
+    width: 100%;
+    padding: 10px 0 0 10px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     box-sizing: border-box;
-}
-
-.hebergements-cards .card-title {
-    margin-bottom: 4px;
-}
-
-.hebergements-cards .card-subtitle {
- 
-}
-
-.hebergements-cards .card-rating {
+    line-height: 1.5;
 }
 
 .afficher-plus a:hover {
@@ -310,7 +302,7 @@ header{
 
 .populaires {
     background-color: var(--main-bg-color);
-    width: 35%;
+    width: 32%;
     border-radius: 15px;
     
 }
@@ -324,7 +316,7 @@ header{
     
 }
 
-.bloc-populaires-cards {
+.populaires-cards {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -333,11 +325,11 @@ header{
 
 .populaires-cards .card {
     display: flex;
-    margin-top: 33px;
+    margin-top: 15px;
 }
 
 .populaires-cards img {
-    width: 359px;
+    width: 33%;
     height: 136px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -381,7 +373,7 @@ header{
     align-items: center;
     padding: 20px;
     font-size: 22px;
-    margin-top: 30px;
+    margin: 30px 0 0 47px;
 }
 
 .bloc-activites-cards {
@@ -393,20 +385,29 @@ header{
    
 }
 
-.activités-cards  {
+.activites-cards  {
+ 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 20%;
     height: 439px;
-    border-radius: 15px;
+    border-radius: 20px;
+    overflow: hidden;
 }
 
-.activités-cards img {
+.activites-cards .card {
+    padding: 0;
+}
+
+.activites-cards img {
     height: 380px;
-    width: 297px;
+    width: 100%;
+    
+
 }
 
-.card-title {
+.activites .card-title {
     padding: 20px;
 }
 
@@ -417,21 +418,19 @@ header{
 .footer-container {
     background-color: var(--main-bg-color);
     display: flex;
-    justify-content: flex-start;
-    margin-top: 40px;
+    justify-content: space-between;
+    margin: 45px;
+    padding: 10px;
+  
    
 }
 
 .footer-box {
     display: flex;
     flex-direction: column;
-    margin-right: 250px;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-bottom: 20px;
+    line-height: 1.8;
+    flex: 1;
    
-    gap: 20px;
-    width: fit-content;
 }
 
 .footer-title {
