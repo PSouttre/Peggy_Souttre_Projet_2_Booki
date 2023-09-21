@@ -582,11 +582,27 @@ header{
 
     .cta-2  i {
         color: #FFF
-        
-    
     }
     
-    
+    /**************** Filtres mobile ***************/
+ 
+    .filtres {
+        max-width: 767,98px;
+        display: grid;
+        grid-template-columns: 180px 180px;
+        grid-template-rows: 50px 50px;
+        gap: 20px;
+        margin-bottom: 30px;
+        padding: 0;
+
+    }
+
+    .titre-filtres {
+        grid-column: 1/3;
+        
+       
+    }
+
 
 
 
