@@ -640,7 +640,14 @@ header{
 
     .activites-cards  {
         width: 70%;
+        margin: 15px;
     }
+/*
+    .activites-cards img {
+        height: 50%;
+    }
+    */
+
 
 /****************************Footer mobile**********************/
 
