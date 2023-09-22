@@ -292,7 +292,7 @@ header{
 }
 
 .afficher-plus {
-    padding: 20px;
+    padding: 30px;
     font-size: 18px;
     font-weight: 700;
 }
@@ -495,11 +495,13 @@ header{
         display: flex;
         flex-direction: column;
         max-width: 767.98px;
+        padding: 0;
     }
-    .trouver-votre-hebergement {
-      
 
-    }    
+    .main-container {
+        padding: 0;
+    }
+
     .logo-container {
         width : 100px; /* taille du logo */
         padding: 30px;
@@ -613,19 +615,28 @@ header{
         background-color: #FFF;
     }
 
+    .hebergements-cards {
+        min-width: 320px;
+    }
+
     .populaires {
         order: 1;
         display: flex;
         flex-direction: column ;
+        border-radius: 0;
     }
 
     .populaires-cards {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        min-width: 320px;
+
     }
 
     .populaires-cards a {
         width: 100%;
+        max-width: 320px;
     }
 
 
