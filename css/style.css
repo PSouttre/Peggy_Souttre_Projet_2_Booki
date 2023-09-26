@@ -577,7 +577,7 @@ header{
         padding: 0 20px;
         cursor: pointer;
         color: #FFF;
-        font-size: 700;
+        font-weight: 700;
         font-size: 22px;
     }
 
@@ -589,7 +589,7 @@ header{
     /**************** Filtres mobile ***************/
  
     .filtres {
-        max-width: 767,98px;
+        max-width: 768px;
         display: grid;
         grid-template-columns: 180px 180px;
         grid-template-rows: 50px 50px;
