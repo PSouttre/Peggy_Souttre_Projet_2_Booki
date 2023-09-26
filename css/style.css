@@ -407,7 +407,6 @@ header{
     flex-direction: column;
     justify-content: space-between;
     width: 20%;
-    height: 439px;
     border-radius: 20px;
     overflow: hidden;
 }
@@ -487,7 +486,19 @@ header{
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
-}
+
+    .activites-cards {
+        flex-direction: row
+        width: 100%;
+        min-width: 180px;
+        max-width: 300px;
+        margin: 15px;
+        max-height: 300px ;
+    }
+
+    .activites-cards img {
+        max-height: 190px;
+    }
 
 
 
@@ -685,8 +696,5 @@ header{
     .footer-box {
         margin: 20px;
     }
-
 }
-
-
-
+}
