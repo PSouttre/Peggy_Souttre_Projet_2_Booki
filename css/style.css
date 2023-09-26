@@ -655,11 +655,13 @@ header{
         width: 100%;
         max-width: 320px;
         margin: 15px;
-        height: 65%;
+        max-height: 272px ;
     }
+
 
     .activites-cards img {
         height: 65%;
+        max-height: 177px;
     }
  
 
