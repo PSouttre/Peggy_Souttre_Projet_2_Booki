@@ -647,17 +647,21 @@ header{
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 100%;
+        min-width: 320px;
     }
 
-    .activites-cards  {
-        width: 70%;
+    .activites-cards {
+        width: 100%;
+        max-width: 320px;
         margin: 15px;
+        height: 65%;
     }
-/*
+
     .activites-cards img {
-        height: 50%;
+        height: 65%;
     }
-    */
+ 
 
 
 /****************************Footer mobile**********************/
