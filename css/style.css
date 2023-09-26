@@ -498,13 +498,14 @@ header{
         padding: 0;
     }
 
+
     .main-container {
         padding: 0;
     }
 
     .logo-container {
         width : 100px; /* taille du logo */
-        padding: 30px;
+        margin: 30px;
         align-items: center;
     }
 
@@ -642,7 +643,17 @@ header{
 
 
 /***********************Activités mobile *******************/
+    .activites{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding: 30px;
+    }
 
+    .activites-title{
+        margin: 0;
+    }
+    
     .bloc-activites-cards {
         display: flex;
         flex-direction: column;
