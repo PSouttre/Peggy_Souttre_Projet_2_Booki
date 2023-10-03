@@ -400,6 +400,7 @@ header{
     flex-direction: row;
     justify-content: space-evenly;
     margin: 20px;
+    gap: 12px;
 }
 
 .activites-cards  {
@@ -408,7 +409,6 @@ header{
     justify-content: space-between;
     width: 20%;
     border-radius: 20px;
-    overflow: hidden;
 }
 
 .activites-cards .card {
@@ -418,6 +418,7 @@ header{
 .activites-cards img {
     height: 380px;
     width: 100%;
+    border-radius: 20px 20px 0 0;
 }
 
 .activites .card-title {
@@ -488,11 +489,9 @@ header{
     }
 
     .activites-cards {
-        flex-direction: row
         width: 100%;
         min-width: 180px;
         max-width: 300px;
-        margin: 15px;
         max-height: 300px ;
     }
 
