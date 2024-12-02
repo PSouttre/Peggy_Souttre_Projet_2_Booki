@@ -1,3 +1,5 @@
+Créez la page d'accueil d'une agence de voyage avec HTML & CSS
+
 Objectifs :
 
 - Implémenter une interface responsive avec HTML et CSS 
